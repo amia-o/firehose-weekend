@@ -19,18 +19,18 @@
       </a>
  
       <!-- Be sure to leave the brand out there if you want it shown -->
-      <a class="brand" href="#">Firehose</a>
+      <%= link_to 'Firehose', root_path, :class =>'brand' %>
  
       <!-- Everything you want hidden at 940px or less, place within here -->
       <div class="nav-collapse collapse">
         <!-- .nav, .navbar-search, .navbar-form, etc -->
         <ul class="nav">
         	<li>
-        		<%= link_to 'About', '#' %>
+        		<%= link_to 'User Feedback', pics_path %>
         	</li>
-        	<li>
-        		<%= link_to 'How to use Arbiter', '#' %>
-        	</li>
+          <li>
+            <%= link_to 'Form', new_pic_path %>
+          </li>
         </ul>	
       </div>
  
