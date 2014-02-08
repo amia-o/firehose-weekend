@@ -1,0 +1,20 @@
+<div class="steamy-hottub">
+	<h2 class="custom-font-h2">
+		i love hottub coding
+
+
+		<%= simple_form_for @pic do |f| %>
+			<h3>Please tell us the hour below!</h3>
+			<%= f.input :hour %>
+			<h3>Please tell us how you feel below!</h3>
+			<%= f.input :emotion %>
+			<h3>Please tell us what you learnt today below!</h3>
+			<%= f.input :learned %>
+
+			<%= f.submit 'Save' %>
+
+		<% end %>	
+
+
+	</h2>
+</div>	
