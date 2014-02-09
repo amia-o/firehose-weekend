@@ -39,6 +39,8 @@ gem 'simple_form'
 
 gem 'carrierwave'
 
+gem "fog", "~> 1.3.1" #i wan't to use this specific version, only use versions around 1.3.1 (~>)
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
